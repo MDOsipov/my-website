@@ -1,0 +1,24 @@
+body {
+    background-color: beige;
+}
+
+tbody td {
+    text-align: center;
+}
+
+thead th {
+    background-color: hsla(212, 7%, 44%, 0.2);
+}
+
+tbody tr:nth-child(even) {
+    background-color: white;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: wheat;
+    ;
+}
+
+.employee-table {
+    box-shadow: 10px 5px 5px black;
+}
